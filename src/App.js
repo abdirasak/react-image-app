@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import SearchBar from './components/SearchBar'
 import searchImages from './api'
 import ImageList from './components/ImageList'

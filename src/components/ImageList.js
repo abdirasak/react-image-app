@@ -8,7 +8,7 @@ function ImageList({ images }) {
     return <ImageCard key={image.id} image={image} />
   })
   return (
-    <div className='image-list'>{renderImages}</div>
+    <div className='image-container'>{renderImages}</div>
   )
 }
 

@@ -1,5 +1,22 @@
 .search-bar{
-  boder: 1px solid lightgray;
+  border: 1px solid lightgray;
   border-radius: 5px;
   padding: 10px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.search-bar form{
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
